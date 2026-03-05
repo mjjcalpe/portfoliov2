@@ -6,9 +6,9 @@
   <title>Martin James Calpe</title>
   <link href="https://fonts.googleapis.com/css2?family=Syne:wght@400;600;700;800&family=DM+Mono:wght@300;400;500&display=swap" rel="stylesheet"/>
   <link rel="stylesheet" href="styles2.css">
+  <link rel="icon" type="image/png" href="logo.png">
 </head>
 <body>
-
   <!-- Interactive background -->
   <canvas id="bg-canvas"></canvas>
   <div id="mouse-glow"></div>
@@ -449,9 +449,70 @@
             </div>
           </div>
         </div>
+      </div>  
+
+      <div class="project-card" id="card-6">
+        <div class="project-header" onclick="toggleCard('card-6')">
+          <div class="project-header-left">
+            <div class="project-icon">💰</div>
+            <div class="project-meta">
+              <div class="project-number">Project 05 — Full Stack</div>
+              <div class="project-title">Budget Tracker</div>
+            </div>
+          </div>
+          <div class="project-header-right">
+            <div class="project-status">
+              <span class="status-dot live" style="background: #22c55e;"></span>
+              Live Project
+            </div>
+            <button class="expand-btn" aria-label="Expand">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="6 9 12 15 18 9"/></svg>
+            </button>
+          </div>
+        </div>
+        <div class="project-body">
+          <div class="project-body-inner">
+            <div>
+              <p class="project-desc">
+                A modern <strong>Personal Finance Dashboard</strong> designed for seamless expense tracking. Built with <strong>Next.js 14</strong> and <strong>Firebase</strong>, featuring real-time data synchronization, secure Google Authentication, and a responsive UI for managing transactions on any device.
+              </p>
+              <div class="project-tags">
+                <span class="project-tag">Next.js</span>
+                <span class="project-tag">TypeScript</span>
+                <span class="project-tag">Firebase</span>
+                <span class="project-tag">Tailwind CSS</span>
+                <span class="project-tag purple">Cloud Auth</span>
+                <span class="project-tag purple">Real-time DB</span>
+              </div>
+              <div class="project-actions">
+                <a href="https://budget-tracker-mjcalpe.vercel.app/" target="_blank" rel="noopener" class="project-link">
+                  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M18 13v6a2 2 0 01-2 2H5a2 2 0 01-2-2V8a2 2 0 012-2h6"></path><polyline points="15 3 21 3 21 9"></polyline><line x1="10" y1="14" x2="21" y2="3"></line></svg>
+                  Visit Live Site
+                </a>
+              </div>
+            </div>
+            <div class="preview-pane">
+              <div class="preview-bar">
+                <span class="preview-dot"></span>
+                <span class="preview-dot"></span>
+                <span class="preview-dot"></span>
+                <span class="preview-url">budget-tracker-mjcalpe.vercel.app</span>
+              </div>
+              <div class="preview-iframe-wrap">
+                <img src="project5.png" alt="Budget Tracker Preview" class="preview-screenshot">
+                <div class="preview-overlay">
+                  <a href="https://budget-tracker-mjcalpe.vercel.app/" target="_blank" rel="noopener" class="preview-visit">
+                    <svg width="11" height="11" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M18 13v6a2 2 0 01-2 2H5a2 2 0 01-2-2V8a2 2 0 012-2h6"/><polyline points="15 3 21 3 21 9"/><line x1="10" y1="14" x2="21" y2="3"/></svg>
+                    View Live
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
       </div>
-
-
+      
+      
     </div>
   </section>
 
